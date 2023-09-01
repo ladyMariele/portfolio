@@ -1,7 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 body {
     background-color: #EFDBD3;
+    font-family: 'Poppins', sans-serif;
 }
 
 .white-colored {
+    color: white;
+}
+
+h1 {
+    color: #658985;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    padding: 0 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.side-nav {
+    padding: 0.5em;
+}
+
+.side-nav a {
+    color: #658985;
+    padding: .5em;
+    font-size: larger;
+}
+
+.side-nav a:hover {
     color: white;
 }
