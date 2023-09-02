@@ -33,9 +33,9 @@ nav {
     padding: 2em 2em 0 2em;
 }
 
-a:hover {
-    /* cursor: url(images/pawynter.png), auto; */
-}
+/* a:hover {
+    cursor: url(images/pawynter.png), auto;
+} */
 
 img {
     width: 22em;
@@ -64,7 +64,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 1em;
-    padding: 2em 4em;
+    padding: 2em 4.5em;
     margin: 2em 0;
 }
 
@@ -84,12 +84,13 @@ p {
     display: grid;
     grid-template-columns: auto auto;
     gap: 3em;
+    padding-right: 2em;
 }
 
 .hero-button {
     color: aliceblue;
     background-color: #b87e5d;
-    padding: 1em;
+    padding: .5em;
     border: #658985 1px solid;
     font-size: x-large;
     text-align: center;
