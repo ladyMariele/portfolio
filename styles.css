@@ -3,11 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: aliceblue;
 }
 
 body {
     background-color: #EFDBD3;
-    font-family: 'Poppins', sans-serif;
+    /* cursor: url(images/pawrsur.png), auto; */
 }
 
 .white-colored {
@@ -25,7 +30,19 @@ h1 {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 2em 2em 0 2em;
+}
+
+a:hover {
+    /* cursor: url(images/pawynter.png), auto; */
+}
+
+img {
+    width: 22em;
+}
+
+p {
+    color: #658985;
 }
 
 .side-nav {
@@ -33,11 +50,54 @@ nav {
 }
 
 .side-nav a {
-    color: #658985;
+    color: #AA6337;
     padding: .5em;
     font-size: larger;
 }
 
 .side-nav a:hover {
     color: white;
+    /* cursor: url(images/pawynter.png), auto; */
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1em;
+    padding: 2em 4em;
+    margin: 2em 0;
+}
+
+.hero-text-group {
+    margin: auto;
+    padding: 2em;
+}
+
+.hero-text {
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 2em;
+    padding: 2em 0;
+}
+
+.hero-button-group{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3em;
+}
+
+.hero-button {
+    color: aliceblue;
+    background-color: #b87e5d;
+    padding: 1em;
+    border: #658985 1px solid;
+    font-size: x-large;
+    text-align: center;
+    transition: background-color 50ms ease-in-out;
+    transition-delay: 50ms;
+}
+
+.hero-button:hover {
+    color:#AA6337;
+    background-color: white;
 }
