@@ -12,6 +12,7 @@ a {
 
 body {
     background-color: #EFDBD3;
+    color: #658985;
     /* cursor: url(images/pawrsur.png), auto; */
 }
 
@@ -68,7 +69,7 @@ p {
     margin: 2em 0;
 }
 
-.hero-text-group {
+.hero-text-container {
     margin: auto;
     padding: 2em;
 }
@@ -80,7 +81,7 @@ p {
     padding: 2em 0;
 }
 
-.hero-button-group{
+.hero-button-container{
     display: grid;
     grid-template-columns: auto auto;
     gap: 3em;
@@ -101,4 +102,63 @@ p {
 .hero-button:hover {
     color:#AA6337;
     background-color: white;
+}
+
+.color-block {
+    background-color: #DBCECE;
+    width: 60em;
+    height: 75em;
+    position: absolute;
+    top: -10%;
+    right: 0%;
+    border-radius: 71% 29% 0% 100% / 51% 0% 100% 49%; 
+    z-index: -1;
+}
+
+#web-projects {
+    background-color: #DBCECE;
+    border-radius: 50%;
+}
+
+h2 {
+    color: #658985;
+    text-align: center;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2em;
+    padding: 4em;
+}
+
+.card {
+    margin: 1em;
+    text-align: center;
+}
+
+ .card img {
+    display: block;
+    width: 100%;
+ }
+
+ .card-text {
+    padding: 1.5em;
+ }
+
+ .card-text h3 {
+    padding-bottom: 1em;
+ }
+
+.card-button-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.card-button-container a {
+    padding: 1em 0;
+}
+
+.blue-border {
+    border: #658985 1pt solid;
 }
