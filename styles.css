@@ -95,18 +95,21 @@ p {
     border: #658985 1px solid;
     font-size: x-large;
     text-align: center;
+}
+
+.hover-effect {
     transition: background-color 50ms ease-in-out;
     transition-delay: 50ms;
 }
 
-.hero-button:hover {
+.hover-effect:hover{
     color:#AA6337;
     background-color: white;
 }
 
 .color-block {
     background-color: #DBCECE;
-    width: 60em;
+    width: 65em;
     height: 90em;
     position: absolute;
     top: -10%;
@@ -127,8 +130,8 @@ h2 {
 }
 
 .cards-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
     gap: 2em;
     padding: 4em;
 }
@@ -146,10 +149,12 @@ h2 {
  .card-text {
     padding: 1.5em;
     display: block;
+    line-height: normal;
  }
 
  .card-text h3 {
     padding-bottom: 1em;
+    line-height: 0%;
  }
 
 .card-button-container {
@@ -159,6 +164,7 @@ h2 {
 
 .card-button-container a {
     padding: 1em 0;
+    background-color: #b87e5d;
 }
 
 .blue-border {
