@@ -107,22 +107,23 @@ p {
 .color-block {
     background-color: #DBCECE;
     width: 60em;
-    height: 75em;
+    height: 90em;
     position: absolute;
     top: -10%;
     right: 0%;
-    border-radius: 71% 29% 0% 100% / 51% 0% 100% 49%; 
+    border-radius: 24% 32% 0% 0% / 79% 0% 10% 15% ; 
     z-index: -1;
 }
 
 #web-projects {
     background-color: #DBCECE;
-    border-radius: 50%;
+    border-radius: 50% 34% 0% 0% / 14% 0% 10% 15% ;
 }
 
 h2 {
     color: #658985;
     text-align: center;
+    padding-top: 2em;
 }
 
 .cards-container {
@@ -144,6 +145,7 @@ h2 {
 
  .card-text {
     padding: 1.5em;
+    display: block;
  }
 
  .card-text h3 {
