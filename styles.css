@@ -11,7 +11,7 @@ a {
 }
 
 body {
-    background-color: #EFDBD3;
+    background-image: url(images/img-texture-body.png);
     color: #658985;
     /* cursor: url(images/pawrsur.png), auto; */
 }
@@ -150,6 +150,7 @@ h2 {
     padding: 1.5em;
     display: block;
     line-height: normal;
+    background-image: url(images/img-texture.png);
  }
 
  .card-text h3 {
