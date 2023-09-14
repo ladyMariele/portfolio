@@ -28,10 +28,10 @@ h1 {
     padding: 0 1em;
 }
 
-nav {
+nav, footer {
     display: flex;
     justify-content: space-between;
-    padding: 2em 2em 0 2em;
+    padding: 2em 3em;
 }
 
 /* a:hover {
@@ -46,11 +46,11 @@ p {
     color: #658985;
 }
 
-.side-nav {
+.side-nav, .social-links {
     padding: 0.5em;
 }
 
-.side-nav a {
+.side-nav a, .social-links a {
     color: #AA6337;
     padding: .5em;
     font-size: larger;
@@ -65,7 +65,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 1em;
-    padding: 2em 4.5em;
+    padding: 1em 4.5em;
     margin: 2em 0;
 }
 
@@ -109,8 +109,8 @@ p {
 
 .color-block {
     background-color: #DBCECE;
-    width: 65em;
-    height: 90em;
+    width: 61em;
+    height: 70em;
     position: absolute;
     top: -10%;
     right: 0%;
@@ -119,14 +119,16 @@ p {
 }
 
 #web-projects {
-    background-color: #DBCECE;
-    border-radius: 50% 34% 0% 0% / 14% 0% 10% 15% ;
+    background-color: #d0bfbf;
+    border-radius: 50% 50% 0% 0% / 8% 8% 0% 0% ;
+    height: 50em;
+    margin-top: 5em;
 }
 
 h2 {
     color: #658985;
     text-align: center;
-    padding-top: 2em;
+    padding-top: 4em;
 }
 
 .cards-container {
@@ -170,4 +172,40 @@ h2 {
 
 .blue-border {
     border: #658985 1pt solid;
+}
+
+#other-artworks, #about {
+    background-color: #c5b1b1;
+    border-radius: 50% 50% 0% 0% / 8% 8% 0% 0% ;
+    height: 45em;
+    margin-top: -4.5em;
+}
+
+#about {
+    background-color: #b49b9b;
+}
+
+#about h2 {
+    color: #f7f5f5;
+    padding-bottom: 2em;
+}
+
+#about p {
+    color: #f7f5f5;
+    padding: 0 10em;
+}
+
+/* .about-text {
+} */
+
+/* footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+} */
+
+.credit {
+    padding: 0.5em;
+    color: #AA6337;
+    font-weight: bold;
 }
