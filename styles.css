@@ -98,13 +98,22 @@ p {
 }
 
 .hover-effect {
-    transition: background-color 50ms ease-in-out;
+    transition:  50ms ease-in-out;
     transition-delay: 50ms;
 }
 
 .hover-effect:hover{
     color:#AA6337;
     background-color: white;
+}
+
+.hover-effect-icon {
+    transition: 50ms ease-in-out;
+    transition-delay: 50ms;
+}
+
+.hover-effect-icon:hover {
+    color:#AA6337;
 }
 
 .color-block {
@@ -195,17 +204,32 @@ h2 {
     padding: 0 10em;
 }
 
-/* .about-text {
-} */
-
-/* footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%; 
-} */
-
 .credit {
     padding: 0.5em;
     color: #AA6337;
     font-weight: bold;
+}
+
+#contact {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
+}
+ 
+#contact h1 {
+    font-size: 3em;
+}
+
+.contact-text {
+    text-align: center;
+    padding: 20em;
+}
+
+.contact-text p, .contact-text i {
+    font-size: xx-large;
+    line-height: 1.5em;
+}
+
+.contact-text i {
+    padding: 0 0.5em;
 }
