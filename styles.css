@@ -220,6 +220,10 @@ h2 {
     font-size: 3em;
 }
 
+.contact-text a {
+    color: #cf9992;
+}
+
 .contact-text {
     text-align: center;
     padding: 20em;
@@ -232,4 +236,22 @@ h2 {
 
 .contact-text i {
     padding: 0 0.5em;
+}
+
+.footer-hover-effect1 {
+    transition:  100ms ease-in-out;
+    transition-delay: 50ms;
+}
+
+.footer-hover-effect1:hover {
+    transform: rotate(30deg);
+}
+
+.footer-hover-effect2 {
+    transition:  100ms ease-in-out;
+    transition-delay: 50ms;
+}
+
+.footer-hover-effect2:hover {
+    transform: rotate(-30deg);
 }
