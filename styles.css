@@ -114,6 +114,7 @@ p {
 
 .hover-effect-icon:hover {
     color:#AA6337;
+    color: #9d4f45;
 }
 
 .color-block {
@@ -244,7 +245,8 @@ h2 {
 }
 
 .footer-hover-effect1:hover {
-    transform: rotate(30deg);
+    transform: rotate(15deg);
+    font-size: 1.5em;
 }
 
 .footer-hover-effect2 {
@@ -253,5 +255,6 @@ h2 {
 }
 
 .footer-hover-effect2:hover {
-    transform: rotate(-30deg);
+    transform: rotate(-15deg);
+    font-size: 1.5em;
 }
