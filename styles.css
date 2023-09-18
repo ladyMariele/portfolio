@@ -217,7 +217,7 @@ h2 {
     min-height: 100vh;
 }
  
-#contact h1 {
+.contact-text h1 {
     font-size: 3em;
 }
 
