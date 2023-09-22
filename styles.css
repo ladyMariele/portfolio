@@ -38,7 +38,7 @@ nav, footer {
     cursor: url(images/pawynter.png), auto;
 } */
 
-img {
+.hero-image {
     width: 22em;
 }
 
@@ -258,3 +258,56 @@ h2 {
     transform: rotate(-15deg);
     font-size: 1.5em;
 }
+
+/* for mobile screens or screens smaller than or equal to 600px */
+@media screen and (max-width: 600px) {
+    body {
+        text-align: center;
+    }
+    nav {
+        flex-direction: column;
+    }
+    #hero {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+    nav {
+        padding: 1em;
+        border: #658985 1px solid;
+    }
+    .side-nav {
+        padding: 0;
+    }
+    .color-block {
+        display: none;
+    }
+    .hero-image {
+        width: 40vw;
+    }
+    .hero-container, .cards-container {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-text-container, .hero-button-container{
+        padding: 0;
+    }
+    .hero-text-container {
+        border: #658985 1px solid;
+    }
+
+    .hero-text {
+        font-size: small;
+        font-weight: normal;
+        padding: 0 2em;
+    }
+    .hero-button-container {
+        gap: 0;
+        padding: 1em 0 0 0;
+    }
+    .hero-button {
+        font-size: large;
+    }
+ }
