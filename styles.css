@@ -344,9 +344,10 @@ h2 {
         font-size: xx-large;
     }
     .contact-text {
-        padding: 10em 0;
+        padding: 12em 0;
     }
     footer {
         flex-direction: column;
+        padding: 0.5em;
     }
  }
