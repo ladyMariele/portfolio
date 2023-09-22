@@ -270,14 +270,20 @@ h2 {
     #hero {
         display: flex;
         flex-direction: column;
-        height: 90vh;
+        height: 70vh;
     }
     nav {
         padding: 1em;
         border: #658985 1px solid;
+        border-bottom: #658985 2px solid;
+    }
+    .side-nav, .side-nav a, .hero-text-container, .hero-button-container{
+        padding: 0;
     }
     .side-nav {
-        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5em 0.5em 0 0.5em;
     }
     .color-block {
         display: none;
@@ -291,16 +297,14 @@ h2 {
         display: flex;
         flex-direction: column;
     }
-    .hero-text-container, .hero-button-container{
-        padding: 0;
-    }
     .hero-text-container {
+        padding-top: 1em;
         border: #658985 1px solid;
     }
 
     .hero-text {
-        font-size: small;
-        font-weight: normal;
+        font-size: medium;
+        font-weight: bold;
         padding: 0 2em;
     }
     .hero-button-container {
