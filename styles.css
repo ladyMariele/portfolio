@@ -324,13 +324,13 @@ h2 {
         border-radius: 50% 50% 0% 0% / 4% 4% 0% 0%;
     }
     h2 {
-        padding: 2em 0 0.5em 0;
+        padding: 2em 0 1em 0;
     }
     .cards-container {
-        padding-bottom: 7em;
+        padding-bottom: 4em;
     }
     .card {
-        margin-bottom: 3em;
+        margin-bottom: 5em;
     }
     #about p {
         padding: 1em;
@@ -344,10 +344,13 @@ h2 {
         font-size: xx-large;
     }
     .contact-text {
-        padding: 12em 0;
+        padding: 13em 0;
     }
     footer {
         flex-direction: column;
         padding: 0.5em;
+    }
+    .credit {
+        font-weight: 100;
     }
  }
