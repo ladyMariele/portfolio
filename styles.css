@@ -54,6 +54,8 @@ p {
     color: #AA6337;
     padding: .5em;
     font-size: larger;
+    transition:  100ms ease-in-out;
+    transition-delay: 50ms;
 }
 
 .side-nav a:hover {
@@ -213,8 +215,8 @@ h2 {
 
 #contact {
     display: grid;
-    grid-template-rows: 1fr auto;
-    min-height: 100vh;
+    grid-template-rows: 1fr 9fr auto;
+    height: 100vh;
 }
  
 .contact-text h1 {
@@ -227,7 +229,7 @@ h2 {
 
 .contact-text {
     text-align: center;
-    padding: 20em 0; 
+    padding: 20em 0;
 }
 
 .contact-text p, .contact-text i {
@@ -259,8 +261,8 @@ h2 {
     font-size: 1.5em;
 }
 
-/* for mobile screens or screens smaller than or equal to 600px */
-@media screen and (max-width: 600px) {
+/* for mobile screens or screens smaller than or equal to 600px (tablet and mobile) */
+@media screen and (max-width: 1030px) {
     body {
         text-align: center;
         display: flex;
@@ -330,21 +332,25 @@ h2 {
         padding-bottom: 4em;
     }
     .card {
-        margin-bottom: 5em;
+        margin: 1em 3em 5em 3em;
     }
     #about p {
         padding: 1em;
         line-height: 2em;
     }
-
+    .contact-text {
+        border: #658985 1px solid; 
+        border-top: none;
+    }
     .contact-text p {
         font-size: larger;
     }
     .contact-text h1 {
         font-size: xx-large;
     }
-    .contact-text {
-        padding: 13em 0;
+    .contact-footer {
+        border: #658985 1px solid;
+        border-top: none;
     }
     footer {
         flex-direction: column;
