@@ -5,7 +5,10 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
-
+*::selection{
+    background-color: #6e9490;
+    color: #efdbd3;
+}
 a {
     color: aliceblue;
 }
@@ -15,13 +18,12 @@ body {
     color: #658985;
     /* cursor: url(images/pawrsur.png), auto; */
 }
-
 .white-colored {
     color: white;
 }
 
 h1 {
-    color: #658985;
+    color: #5c928c;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: xx-large;
@@ -46,11 +48,13 @@ p {
     color: #658985;
 }
 
-.side-nav, .social-links {
+.side-nav,
+ .social-links {
     padding: 0.5em;
 }
 
-.side-nav a, .social-links a {
+.side-nav a,
+ .social-links a {
     color: #AA6337;
     padding: .5em;
     font-size: larger;
@@ -138,14 +142,13 @@ p {
 }
 
 h2 {
-    color: #658985;
+    color: #f7f5f5;
     text-align: center;
     padding-top: 4em;
 }
 
 .cards-container {
     display: flex;
-    /* grid-template-columns: auto auto auto; */
     gap: 2em;
     padding: 4em;
 }
@@ -186,7 +189,8 @@ h2 {
     border: #658985 1pt solid;
 }
 
-#other-artworks, #about {
+#other-artworks,
+ #about {
     background-color: #c5b1b1;
     border-radius: 50% 50% 0% 0% / 8% 8% 0% 0% ;
     height: 45em;
@@ -232,7 +236,8 @@ h2 {
     padding: 20em 0;
 }
 
-.contact-text p, .contact-text i {
+.contact-text p, 
+.contact-text i {
     font-size: xx-large;
     line-height: 1.5em;
 }
@@ -280,7 +285,10 @@ h2 {
         padding: 1em;
         border: #658985 1px solid;
     }
-    .side-nav, .side-nav a, .hero-text-container, .hero-button-container{
+    .side-nav, 
+    .side-nav a, 
+    .hero-text-container, 
+    .hero-button-container{
         padding: 0;
     }
     .side-nav {
@@ -294,7 +302,8 @@ h2 {
     .hero-image {
         width: 40vw;
     }
-    .hero-container, .cards-container {
+    .hero-container, 
+    .cards-container {
         margin: 0;
         padding: 0;
         display: flex;
