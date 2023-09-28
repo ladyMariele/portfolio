@@ -193,8 +193,8 @@ h2 {
  #about {
     background-color: #c5b1b1;
     border-radius: 50% 50% 0% 0% / 8% 8% 0% 0% ;
-    height: 45em;
-    margin-top: -4.5em;
+    /* height: 45em; */
+    margin-top: -5.5em;
 }
 
 #about {
@@ -203,12 +203,18 @@ h2 {
 
 #about h2 {
     color: #f7f5f5;
-    padding-bottom: 2em;
+    /* padding-bottom: 2em; */
 }
 
 #about p {
     color: #f7f5f5;
-    padding: 0 10em;
+    padding: 0.5em 17em;
+    line-height: 2em;
+    font-size: 110%;
+}
+
+.about-text {
+    padding: 2em 1em 5em 1em;
 }
 
 .credit {
@@ -344,8 +350,13 @@ h2 {
         margin: 1em 3em 5em 3em;
     }
     #about p {
-        padding: 1em;
+        padding: 0.5em 2em;
         line-height: 2em;
+        text-align: left;
+        text-align: justify;
+    }
+    .about-text {
+        padding: 0 1em 5em 1em;
     }
     .contact-text {
         border: #658985 1px solid; 
