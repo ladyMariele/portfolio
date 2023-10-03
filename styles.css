@@ -54,7 +54,8 @@ p {
 }
 
 .side-nav a,
- .social-links a {
+.social-links a,
+#web-projects h4 a {
     color: #AA6337;
     padding: .5em;
     font-size: larger;
@@ -62,7 +63,8 @@ p {
     transition-delay: 50ms;
 }
 
-.side-nav a:hover {
+.side-nav a:hover,
+#web-projects h4 a:hover {
     color: white;
     /* cursor: url(images/pawynter.png), auto; */
 }
@@ -116,10 +118,11 @@ p {
 .hover-effect-icon {
     transition: 50ms ease-in-out;
     transition-delay: 50ms;
+    color: #cf9992;
 }
 
 .hover-effect-icon:hover {
-    color:#AA6337;
+    /* color:#AA6337; */
     color: #9d4f45;
 }
 
@@ -189,12 +192,22 @@ h2 {
     border: #658985 1pt solid;
 }
 
+h4 {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: inherit;
+    font-size: medium;
+    margin-top: -1em;
+    text-decoration: underline white;
+    text-underline-offset: 3px;
+}
+
 #other-artworks,
  #about {
     background-color: #c5b1b1;
     border-radius: 50% 50% 0% 0% / 8% 8% 0% 0% ;
     /* height: 45em; */
-    margin-top: -5.5em;
+    margin-top: -4.5em;
 }
 
 #about {
@@ -231,10 +244,6 @@ h2 {
  
 .contact-text h1 {
     font-size: 3em;
-}
-
-.contact-text a {
-    color: #cf9992;
 }
 
 .contact-text {
@@ -348,6 +357,10 @@ h2 {
     }
     .card {
         margin: 1em 3em 5em 3em;
+    }
+    #other-artworks,
+    #about {
+        margin-top: -5.5em;
     }
     #about p {
         padding: 0.5em 2em;
