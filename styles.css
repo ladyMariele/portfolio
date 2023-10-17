@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 *::selection{
     background-color: #6e9490;
@@ -199,7 +200,7 @@ h4 {
     font-size: medium;
     margin-top: -1em;
     text-decoration: underline white;
-    text-underline-offset: 3px;
+    text-underline-offset: 4px;
 }
 
 #other-artworks,
