@@ -57,16 +57,15 @@ p {
 .side-nav a,
 .social-links a,
 #web-projects h4 a {
-    color: #AA6337;
+    
     padding: .5em;
     font-size: larger;
-    transition:  100ms ease-in-out;
-    transition-delay: 50ms;
+    
 }
 
 .side-nav a:hover,
 #web-projects h4 a:hover {
-    color: white;
+    
     /* cursor: url(images/pawynter.png), auto; */
 }
 
@@ -104,6 +103,16 @@ p {
     border: #658985 1px solid;
     font-size: x-large;
     text-align: center;
+}
+
+.color-hover-effect {
+    color: #AA6337;
+    transition:  100ms ease-in-out;
+    transition-delay: 50ms;
+}
+
+.color-hover-effect:hover {
+    color: white;
 }
 
 .hover-effect {
@@ -199,6 +208,9 @@ h4 {
     font-weight: inherit;
     font-size: medium;
     margin-top: -1em;
+}
+
+.text-underline  {
     text-decoration: underline white;
     text-underline-offset: 4px;
 }
